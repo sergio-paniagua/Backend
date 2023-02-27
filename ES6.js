@@ -50,3 +50,21 @@ console.log(persona);
 console.log(Object.keys(persona));
 console.log(Object.values(persona));
 console.log(Object.entries(persona));
+
+const pass2 = "1234     "
+console.log(pass2.trim(), "Este es el nuevo pass2 aplicando el metodo trim para sacar los espacios")
+
+const persona2= [
+    1,
+    2,
+    [
+        "a",
+        "b",
+        "c",
+    ],
+    3,
+    4
+]
+
+console.log(persona2);
+console.log(persona2.flat(2));
