@@ -36,13 +36,14 @@ class ProductManager {
     getProducts() {
         return console.log(this.product);
     }
+ 
 
     getProductById(id){
-    let idEncontrado = this.product.find(idp => {console.log(idp)
-        return id == this.id
-    })
-    console.log(idEncontrado)
-    console.log("hola");};
+    this.product.find(idp => {console.log(idp)
+         if (this.id === id){
+            return console.log ("no valido")
+        } else console.log(id);
+    })};
     
    
   }
@@ -53,7 +54,7 @@ const producto3 = new ProductManager("fideos", "kkkjk", 200, "./", 1, 200, 3);
 
 producto2.addProduct(producto2);
 producto2.getProducts();
-producto1.getProductById(1);
+producto2.getProductById(9);
 
 
 
