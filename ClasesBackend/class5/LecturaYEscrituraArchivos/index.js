@@ -3,7 +3,6 @@ const fs = require ("fs")
 const {Blob} = require("buffer")  //investigar sobre esto, permite saber el tamaño del archivo
 
 const infoPackage = async () => {
-    //try {
      //no tengo que crear el archivo porque ya existe (El JSON), solamente lo leo
         const data = await fs.promises.readFile("./package.json", "utf-8")
     //JSON.stringify() para cambiar de formato json a formato string
@@ -14,18 +13,6 @@ const infoPackage = async () => {
         size: new Blob([data]).size //tamaño del archivo
     } 
     console.log (info)
-        //Creo la carpeta info.json para guardar la info generada (tiene q estar en formato json)
-        await fs.promises.writeFile("./info.json", "Archivo JSON")
-        const newData = await fs.promises.readFile("./info.json", "utf-8")
-        const dataJson = JSON.parse(newData)
-        console.log(dataJson)
-           //se ACTUALIZA O MODIFICA
-        await fs.promises.appendFile ("./info.json", JSON.stringify(info))
-           
-
-   // } catch (error) {
-   // console.log(error)
-   // }
     }
 
 infoPackage()
