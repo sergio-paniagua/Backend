@@ -1,6 +1,6 @@
 console.log("hola, este es el archivo proincipal");
 //asi se exporta la clase Jugador (Es un molde para crear nuevos objetos)
-const Jugador = require("./class")
+const Jugador = require("./indexP")
 //aca se instancia la clase
 const messi = new Jugador("messi", "2", "psa");
 const cristiano = new Jugador ("Cristiano", 180, "PSG")

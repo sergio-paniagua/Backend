@@ -6,6 +6,7 @@ let item = {
   fecha: "-",
 };
 arrayEvento = [];
+
 //Funcion constructora de objeto
 class TicketManager {
   item;
@@ -26,15 +27,18 @@ class TicketManager {
   //Se establece una variable privada que representa el incremento al precio del evento
   #precioBaseDeGanancia = 0.15;
 }
+
+//Se define por por fuera de la clase?¿
  //Se genera el metodo que muestra los eventos guardados en el array
  function mostrarEvento(celebracion) {
   console.log(arrayEvento[celebracion - 1]);
 }
+
 const fiesta1 = new TicketManager();
 const fiesta2 = new TicketManager();
 const fiesta3 = new TicketManager();
 
-fiesta1.CrearItem(1000, "max", "misiones", 1000);
+fiesta1.CrearItem(1000, "Max", "misiones", 1000);
 fiesta2.CrearItem(2000, "sergio", "mendoza", 2000);
 fiesta3.CrearItem(2005, "Agustin", "Mendoza", 3000)
 
