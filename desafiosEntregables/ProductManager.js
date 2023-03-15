@@ -1,5 +1,7 @@
 const fs = require ("fs")
 const file = "./producto.json"
+const ProductManager = require ("./DesafioEntregable1")
+
 
 class ProductManager {
   title = "";
@@ -79,3 +81,5 @@ const producto3 = new ProductManager("fideos", "kkkjk", 200, "./", 1, 200, 3);
 producto2.addProduct(producto2);
 //producto3.addProduct(producto3);
 producto2.getProducts();
+
+

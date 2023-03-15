@@ -16,6 +16,8 @@ class ProductManager {
       id++
       this.products.push({title, description, price, thumbnail, code, stock, id});
     }
+    //Ver video en youtube que muestra otra forma de validar usando includes
+    //
 
   }
   getProducts() {
@@ -38,3 +40,5 @@ class ProductManager {
 const productos = new ProductManager();
 productos.getProducts();
 
+
+module.exports=ProductManager;

@@ -1,0 +1,36 @@
+[{
+    "id": 1,
+    "title": "Versatainer Nc - 8288",
+    "price": 82,
+    "thumbnail ": "http://dummyimage.com/151x100.png/cc0000/ffffff",
+    "code": 1,
+    "stock": 1
+  }, {
+    "id": 2,
+    "title": "Tomato Puree",
+    "price": 74,
+    "thumbnail ": "http://dummyimage.com/120x100.png/cc0000/ffffff",
+    "code": 2,
+    "stock": 2
+  }, {
+    "id": 3,
+    "title": "Pate - Cognac",
+    "price": 13,
+    "thumbnail ": "http://dummyimage.com/127x100.png/ff4444/ffffff",
+    "code": 3,
+    "stock": 3
+  }, {
+    "id": 4,
+    "title": "Dr. Pepper - 355ml",
+    "price": 21,
+    "thumbnail ": "http://dummyimage.com/226x100.png/cc0000/ffffff",
+    "code": 4,
+    "stock": 4
+  }, {
+    "id": 5,
+    "title": "Flour - Teff",
+    "price": 48,
+    "thumbnail ": "http://dummyimage.com/194x100.png/ff4444/ffffff",
+    "code": 5,
+    "stock": 5
+  }]
