@@ -1,12 +1,9 @@
 //const date = new Date()
 //console.log(date.toISOString); //esto es para cambiar a archivo plano, el formato fecha (objeto) a sting 
 const fs = require("fs")
-
 class UserManager{
-    
-    constructor(path){
+    constructor(){
         this.user = []
-        this.path = path
     }
     crearUsuario(usuario){
         //desestructuramos, para trabajar con un solo parametro (Objeto)
@@ -19,16 +16,11 @@ class UserManager{
             edad,
             curso
         }
-        this.path;
         this.user.push(userInfo);
-
         fs.promises.writeFile("./usuario.json", this.user);
     }
-
     consultarUsuario(){
-
     }
-
 }
 
 module.exports = UserManager;
