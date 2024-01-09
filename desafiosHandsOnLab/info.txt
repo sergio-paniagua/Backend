@@ -1,0 +1,1 @@
+Aparezco en consola cuando me llaman usando una promesa

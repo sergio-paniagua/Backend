@@ -15,6 +15,7 @@ class UserManager{
             apellido,
             edad,
             curso
+
         }
         this.user.push(userInfo);
         fs.promises.writeFile("./usuario.json", this.user);

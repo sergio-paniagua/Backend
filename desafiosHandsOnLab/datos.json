@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "sustancia": [
+      "Cocaina"
+    ],
+    "pureza": 63,
+    "adulterante": [
+      "Almidon",
+      "Levamisol"
+    ],
+    "solventes_residuales": [
+      ""
+    ]
+  },
+  {
+    "id": 2,
+    "sustancia": [
+      "MDMA"
+    ],
+    "pureza": null,
+    "adulterante": [
+      "Cafeina"
+    ],
+    "solventes_residuales": [
+      ""
+    ]
+  },
+  {
+    "id": 3,
+    "sustancia": [
+      "MDMA"
+    ],
+    "pureza": null,
+    "adulterante": [
+      "Ketamina"
+    ],
+    "solventes_residuales": [
+      ""
+    ]
+  },
+  [
+    {
+      "id": 1,
+      "sustancia": [
+        "Cocaina"
+      ],
+      "pureza": 63,
+      "adulterante": [
+        "Almidon",
+        "Levamisol"
+      ],
+      "solventes_residuales": [
+        ""
+      ],
+      "ley": true
+    },
+    {
+      "id": 2,
+      "sustancia": [
+        "MDMA"
+      ],
+      "pureza": null,
+      "adulterante": [
+        "Cafeina"
+      ],
+      "solventes_residuales": [
+        ""
+      ],
+      "ley": true
+    },
+    {
+      "id": 3,
+      "sustancia": [
+        "MDMA"
+      ],
+      "pureza": null,
+      "adulterante": [
+        "Ketamina"
+      ],
+      "solventes_residuales": [
+        ""
+      ],
+      "ley": true
+    },
+    {
+      "id": 4,
+      "sustancia": [
+        "CBD"
+      ],
+      "pureza": null,
+      "adulterante": [
+        ""
+      ],
+      "solventes_residuales": [
+        ""
+      ],
+      "ley": false
+    }
+  ]
+]{"contenidoObj":[{"id":1,"sustancia":["Cocaina"],"pureza":63,"adulterante":["Almidon","Levamisol"],"solventes_residuales":[""]},{"id":2,"sustancia":["MDMA"],"pureza":null,"adulterante":["Cafeina"],"solventes_residuales":[""]},{"id":3,"sustancia":["MDMA"],"pureza":null,"adulterante":["Ketamina"],"solventes_residuales":[""]},[{"id":1,"sustancia":["Cocaina"],"pureza":63,"adulterante":["Almidon","Levamisol"],"solventes_residuales":[""],"ley":true},{"id":2,"sustancia":["MDMA"],"pureza":null,"adulterante":["Cafeina"],"solventes_residuales":[""],"ley":true},{"id":3,"sustancia":["MDMA"],"pureza":null,"adulterante":["Ketamina"],"solventes_residuales":[""],"ley":true},{"id":4,"sustancia":["CBD"],"pureza":null,"adulterante":[""],"solventes_residuales":[""],"ley":false}]],"size":1417}
